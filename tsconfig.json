@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    "paths": {
+      "core/*": ["./packages/core/*"]
+    }
+  },
+  "extends": "expo/tsconfig.base"
+}
